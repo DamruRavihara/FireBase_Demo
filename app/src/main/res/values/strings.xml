@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseDemo</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="tp_email">Email</string>
+    <string name="tp_password">Password</string>
+</resources>

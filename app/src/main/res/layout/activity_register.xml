@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/pt_email"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:hint="@string/tp_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pt_password"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_below="@id/pt_email"
+        android:layout_marginTop="100dp"
+        android:hint="@string/tp_password"
+        android:inputType="textWebPassword" />
+
+    <Button
+        android:id="@+id/btn_register2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt_password"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#1D7704"
+        android:text="@string/btn_register" />
+</RelativeLayout>

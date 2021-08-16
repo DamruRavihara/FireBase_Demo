@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/pt_email2"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
+        android:hint="@string/tp_email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/pt_password2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_below="@id/pt_email2"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:hint="@string/tp_password"
+        android:inputType="textWebPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt_password2"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#1D7704"
+        android:text="@string/btn_login" />
+
+</RelativeLayout>
