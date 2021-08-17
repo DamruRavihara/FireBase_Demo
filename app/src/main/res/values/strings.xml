@@ -4,4 +4,5 @@
     <string name="btn_login">Login</string>
     <string name="tp_email">Email</string>
     <string name="tp_password">Password</string>
+    <string name="btn_logout">Logout</string>
 </resources>
